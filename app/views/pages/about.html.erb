@@ -1,2 +1,66 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Awareness VR</title>
+  <meta name="Awareness VR" content="Guided meditation applied to every-day situations">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Banner section -->
+  <div class="banner">
+
+    <h1>awareness vr</h1>
+    <p>Guided meditation applied to every-day situations</p>
+    <br>
+    <!-- <img src="/app/assets/images/meditate 2.png" class="png" alt=""> -->
+    <%= image_tag "meditate2.png" %>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <a href="mailto:inanna.craigmorse@gmail.com" class="btn">Contact</a>
+  </div>
+
+  <div class="container">
+    <h2>What we do</h2>
+    <!-- Cards container -->
+    <div class="cards">
+
+      <!-- Shanghai card -->
+      <div class="card">
+        <%= image_tag "sunrise 2.png" %>
+        <p>Our apps provide a focused, immersive environment to enhance learning</p>
+      </div>
+
+      <!-- London card -->
+      <div class="card">
+        <%= image_tag "cityscape 2.png" %>
+        <p>Guided courses simulate real-life situations in order to use the skills in every-day life </p>
+      </div>
+
+      <!-- Paris card -->
+      <div class="card">
+        <%= image_tag "Group 6.png" %>
+        <p>We connect you to other users to discuss experiences</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer section -->
+  <div class="footer">
+    <div class="container">
+      <p>❤️</p>
+    </div>
+  </div>
+
+  <script> </script>
+</body>
+</html>
