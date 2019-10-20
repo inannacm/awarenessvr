@@ -1,11 +1,12 @@
 
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: lighter;
 }
 
 h1, h2 {
-  color: #404042;
+  color: #595959;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
 }
@@ -16,7 +17,7 @@ h2, h3 {
 }
 
 p {
-  color: #404042;
+  color: #595959;
   /*opacity: .7;*/
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -70,15 +71,18 @@ a:hover {
   font-size: 90px;
   letter-spacing: .3em;
   line-height: 42px;
-  /*display: block;*/
 
 }
 
 .banner p {
-  opacity: .7;
+  opacity: .8;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
 
+}
+
+.heart {
+  color: #EF6D56;
 }
 
 .png {
@@ -116,6 +120,14 @@ body {
 }
 
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+  margin: 0px
+}
+
 .card {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
@@ -150,12 +162,7 @@ body {
   color: white;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-bottom: 24px;
-}
+
 
 @media (min-width: 500px) {
   .container {
